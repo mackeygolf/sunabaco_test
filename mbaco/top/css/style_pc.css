@@ -89,7 +89,7 @@ section h1 {
 }
 
 #sec1 {
-	background: url(../img/photo_01.png) no-repeat center center;
+	background: url(../img/photo_01.jpg) no-repeat center center;
 	height: 400px;
 	background-size: cover;
 }
@@ -124,9 +124,9 @@ section h1 {
 }
 
 #sec3 {
-	background: url(../img/photo_02.png) no-repeat center center;
+	background: url(../img/photo_02.jpg) no-repeat center center;
 	background-size: cover;
-	color: #fff;
+	color: black;
 	background-attachment: fixed;
 }
 
