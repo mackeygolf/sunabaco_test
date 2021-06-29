@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #000452;
+    font-family: 'Lobster Two', cursive;
+
+
+}
+
+.navbar-brand:hover {
+    color: rgb(25, 7, 53);
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(8, 13, 80);
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover {
+    color: rgb(31, 27, 88);
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #eb17cf
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: hsl(310, 81%, 55%);
+    color: rgb(248, 239, 239);
+    border-radius: 60px;
+    font-weight: 700;
+
+}
+
+
+.img-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main {
+    background: url(../img/jeffery-erhunse-6D2Lmtv_X8A-unsplash.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%
+}
+
+.main1 {
+    background: url(../img/claudio-schwarz-purzlbaum-nmDn7YN8BCk-unsplash.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%
+}
+
+.main3 {
+    background: url(../img/shailee-garnier-6vURfgO6r5I-unsplash\ \(1\).jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%
+}
+
+.main2 {
+    background: url(./128C5F4C-6C70-40C6-B9B4-4C3834B386EB\ 2.JPG)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%
+}
+
+
+.main h1 {
+    color: rgb(248, 242, 242);
+    font-size: 4rem;
+    font-weight: 700;
+
+
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #e02caa;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+
+.img-luid {
+    height: 150px;
+    width: 150px;
+
+}
+
+.hmu {
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+    vertical-align: bottom;
+}
+
+/* --------------------------------------------------- */
+
+.hmu {
+    font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
+}
+
+header {
+    /* height: 70px; */
+    background: #eeeaec;
+    text-align: center;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+header ul {
+    /* width: 800px; */
+    margin: 0 auto;
+    display: flex;
+}
+
+header li {
+    color: #acacac;
+    width: 25%;
+    line-height: 60px;
+    transition: 0.2s;
+    /*メニューをホバーした時の変化時間*/
+}
+
+header li:hover {
+    /*メニューをホバーしたときに色が変わる*/
+    color: #111;
+}
