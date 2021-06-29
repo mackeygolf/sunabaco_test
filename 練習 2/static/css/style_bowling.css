@@ -89,14 +89,14 @@ section h1 {
 }
 
 #sec1 {
-	background: url(../img/photo_01.jpg) no-repeat center center;
+	background: url(../img/bowling_01.jpg) no-repeat center center;
 	height: 400px;
 	background-size: cover;
 }
 
 #sec1 h1 {
-	font-size: 55px;
-	color: #fff;
+	font-size: 150px;
+	color: blue;
 	padding: 200px 0 0 0;
 }
 
@@ -123,45 +123,11 @@ section h1 {
 	text-align: left;
 }
 
-#sec3 {
-	background: url(../img/photo_02.jpg) no-repeat center center;
-	background-size: cover;
-	color: black;
-	background-attachment: fixed;
-}
 
-#sec3 p {
-	font-size: 16px;
-	line-height: 2;
-	margin-bottom: 16px;
-}
 
-#sec4 p {
-	font-size: 15px;
-	line-height: 2;
-	margin-bottom: 15px;
-}
 
-#sec4 .port .portfolio {
-	width: 90%;
-	margin: 40px auto;
-	text-align: left;
-	display: flex;
-}
 
-#sec4 .port .portfolio img {
-	width: 100%;
-}
 
-#sec4 .port .portfolio p {
-	font-size: 14px;
-	margin: 5px 0;
-}
-
-#sec4 .port .portfolio p.port_title {
-	text-align: center;
-	font-size: 18px;
-}
 
 footer {
 	height: 80px;

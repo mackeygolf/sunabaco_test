@@ -89,14 +89,14 @@ section h1 {
 }
 
 #sec1 {
-	background: url(../img/photo_01.jpg) no-repeat center center;
+	background: url(../img/golf_01.jpg) no-repeat center center;
 	height: 400px;
 	background-size: cover;
 }
 
 #sec1 h1 {
-	font-size: 150px;
-	color: blue;
+	font-size: 55px;
+	color: #fff;
 	padding: 200px 0 0 0;
 }
 
