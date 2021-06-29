@@ -1,0 +1,52 @@
+{% extends "theme.html" %}
+{% block title %}My page{% endblock %}
+
+{% block content %}
+<h1>過去履歴</h1>
+<div class="table-responsive">
+    <table class="table table-striped">
+      <thread>
+        <tr>
+          <th>Place</th>
+          <th>Date</th>
+          <th>Time</th>
+        </tr>
+      </thread>
+      <tbody>
+        {% for item in pastlist %}
+        <tr>
+          <td>{{ item[0] }}</td>
+          <td>{{ item[1] }}</td>
+          <td>{{ item[2] }}</td>
+        </tr>
+        {% endfor %}  
+      </tbody>
+    </table>
+  </div>
+
+
+<h1>申し込み状況</h1>
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thread>
+      <tr>
+        <th>Place</th>
+        <th>Date</th>
+        <th>Time</th>
+      </tr>
+    </thread>
+    <tbody>
+      {% for item1 in entrylist %}
+      <tr>
+        <td>{{ item1[0] }}</td>
+        <td>{{ item1[1] }}</td>
+        <td>{{ item1[2] }}</td>
+      </tr>
+      {% endfor %}  
+    </tbody>
+  </table>
+</div>
+
+
+
+{% endblock %}
