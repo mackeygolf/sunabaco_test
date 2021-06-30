@@ -11,20 +11,20 @@ app.secret_key = 'mbaco'
 
 
 @app.route('/')
-def index():
+def top():
     return render_template('top.html')
 
 
 # GET  /register => 登録画面を表示
 # POST /register => 登録処理をする
-@app.route('/register', methods=["GET", "POST"])
-def register():
+@app.route('/index', methods=["GET", "POST"])
+def index():
     #  登録ページを表示させる
     if request.method == "GET":
         if 'user_id' in session:
             return redirect('/mypage')
         else:
-            return render_template("register.html")
+            return render_template("index.html")
     # ここからPOSTの処理
     else:
         name = request.form.get("name")
@@ -196,6 +196,16 @@ def del_task():
     conn.commit()
     c.close()
     return redirect("/bbs")
+
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+
+@app.route('/golf')
+def golf():
+    return render_template('golf.html')
 
 
 @app.errorhandler(403)
