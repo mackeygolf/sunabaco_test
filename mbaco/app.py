@@ -7,12 +7,12 @@ from flask import Flask, render_template, request, redirect, session
 app = Flask(__name__)
 
 # Flask では標準で Flask.secret_key を設定すると、sessionを使うことができます。この時、Flask では session の内容を署名付きで Cookie に保存します。
-app.secret_key = 'mbako'
+app.secret_key = 'mbaco'
 
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('top.html')
 
 
 # GET  /register => 登録画面を表示
