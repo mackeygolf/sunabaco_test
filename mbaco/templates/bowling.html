@@ -25,7 +25,7 @@
 		</div>
 
 		<ul>
-			<li>HOME</li>
+			<li><a href="./top.html">HOME</a></li>
 
 		</ul>
 	</header>
@@ -65,8 +65,52 @@
 				</div>
 			</div>
 		</section>
+		<body>
+			<h2>掲示板</h2>
+			  <form action="" method="post">
+				<label>コメント<input type="text" size="50" name="post_message"></label><br>
+				<input type=submit value=投稿する>
+			  </form>
+			 <h2>コメント欄</h2>
+		  </body>
 
 
+		<section>
+			<p class="lead-form">ご予約はこちらから！</p>
+
+			<form>
+
+				<div class="item">
+					<label class="label">お名前</label>
+					<input class="inputs" type="text" name="name">
+				</div>
+
+				<div class="item">
+					<label class="label">メールアドレス</label>
+					<input class="inputs" type="email" name="email">
+				</div>
+
+				<div class="item">
+					<p class="label">予約メニュー</p>
+					<div class="inputs">
+						<input id="cut" type="radio" name="menu" value="cut"><label for="cut">１３時～</label>
+						<input id="cut-color" type="radio" name="menu" value="cut-color"><label
+							for="cut-color">１４時～</label>
+						<input id="headspa" type="radio" name="menu" value="headspa"><label for="headspa">１５時～</label>
+					</div>
+				</div>
+
+				<div class="item">
+					<label class="label">ご意見</label>
+					<textarea class="inputs"></textarea>
+				</div>
+
+				<div class="btn-area">
+					<input type="submit" value="予約する"><input type="reset" value="リセット">
+				</div>
+
+			</form>
+		</section>
 
 
 		<footer>
